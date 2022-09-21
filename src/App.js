@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addUser, updateUsername, deleteUser } from "./redux/Users";
+import "./index.css";
 
 function App() {
   const userList = useSelector((state) => state.users.value);
